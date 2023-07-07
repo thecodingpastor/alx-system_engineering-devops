@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -a -p | tr '\n' ',' | sed 's/,$//'
-# ls -a -p | sed 's/,$//' | tr '\n' ','
+ls -amvp
