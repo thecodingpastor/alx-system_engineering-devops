@@ -1,2 +1,3 @@
 #!/bin/bash
-find . -maxdepth 1 -mindepth 1 -printf "%f, " | sed 's/, $//'
+ls -a -p | tr '\n' ',' | sed 's/,$//'
+# ls -a -p | sed 's/,$//' | tr '\n' ','
