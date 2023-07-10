@@ -1,2 +1,2 @@
 #!/bin/bash
-find /path/to/directory \( -type d -o -name '.*' \) -print | wc -l
+find . \( -type d -o -name '.*' \) -print | wc -l
